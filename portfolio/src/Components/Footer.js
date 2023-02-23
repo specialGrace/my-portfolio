@@ -6,21 +6,21 @@ import {FaTwitterSquare, FaFacebookSquare, FaInstagramSquare, FaGithubSquare} fr
 
 const Footer = () => {
   return (
-    <footer class="footer p-4  rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 text-white  ">
+    <footer className="footer p-4  rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 text-white  ">
 
-    <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
+    <ul className="flex flex-wrap items-center mt-3 sm:mt-0">
         <li>
             <a  target="_blank" href="https://web.facebook.com/CodeQueenG"   rel="noopener noreferrer nofollow"><FaFacebookSquare  className="mr-4 mt-2 text-black-500 hover:underline md:mr-6 dark:text-black-400"/></a>
         </li>
       
         <li>
-            <a target="_blank" href="https://twitter.com/gracias_tech"   rel="noopener noreferrer nofollow" ><FaTwitterSquare class="mr-4 mt-2  hover:underline md:mr-6 dark:text-black-400"/></a>
+            <a target="_blank" href="https://twitter.com/gracias_tech"   rel="noopener noreferrer nofollow" ><FaTwitterSquare className="mr-4 mt-2  hover:underline md:mr-6 dark:text-black-400"/></a>
         </li>
         <li>
-            <a target="_blank" href="https://www.instagram.com/gracias_tech/"   rel="noopener noreferrer nofollow"><FaInstagramSquare class="mr-4 mt-2 text-black-500 hover:underline md:mr-6 dark:text-black-400"/></a>
+            <a target="_blank" href="https://www.instagram.com/gracias_tech/"   rel="noopener noreferrer nofollow"><FaInstagramSquare className="mr-4 mt-2 text-black-500 hover:underline md:mr-6 dark:text-black-400"/></a>
         </li>
         <li>
-            <a target="_blank" href="https://github.com/specialGrace"   rel="noopener noreferrer nofollow" ><FaGithubSquare  class=" mr-4 mt-2 text-black-500 hover:underline dark:text-black-400"/></a>
+            <a target="_blank" href="https://github.com/specialGrace"   rel="noopener noreferrer nofollow" ><FaGithubSquare  className=" mr-4 mt-2 text-black-500 hover:underline dark:text-black-400"/></a>
         </li>
     </ul>
 
